@@ -1,0 +1,41 @@
+.QuickInfoBox {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'HKGroteskBold';
+	border: 1px solid rgba(178, 178, 201, 0.2);
+	padding: 12px 24px;
+	border-radius: 2px;
+	white-space: nowrap;
+}
+
+.QuickInfoBox:nth-of-type(1) {
+	margin-right: 8px;
+}
+
+.QuickInfoBox:nth-of-type(2) {
+	margin-left: 8px;
+}
+
+.dataContainer {
+	display: flex;
+}
+
+.dataContainer > small {
+	margin-left: 16px;
+}
+
+
+.dataContainer > small > span {
+	color: var(--darkBlue);
+	margin-right: 8px;
+}
+
+.title {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: var(--paleBlue);
+	font-family: 'HKGroteskBold';
+}

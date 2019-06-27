@@ -1,0 +1,15 @@
+{
+  "templates": {
+    "component": {
+      "path": "./.remmy/component",
+      "dest": "./source/components"
+    },
+
+    "view": {
+      "path": "./.remmy/view",
+      "dest": "./source/views"
+    }
+  },
+
+  "variables": {}
+}

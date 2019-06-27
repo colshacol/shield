@@ -1,0 +1,12 @@
+.Tickets {
+	
+}
+
+.small:not(:first-of-type) {
+	margin-left: 32px;
+}
+
+.small > span {
+	color: var(--darkBlue);
+	margin-right: 16px;
+}

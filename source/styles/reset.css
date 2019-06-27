@@ -1,0 +1,85 @@
+@import './fonts.css';
+@import './variables.css';
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #F6F7F9;
+	font-family: 'HKGrotesk';
+	letter-spacing: 1px;
+	overflow-y: scroll;
+}
+
+:global #mountPoint {
+	padding-bottom: 240px;
+}
+
+h1 {
+	font-family: 'HKGroteskBold';
+	font-size: 28px;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-family: 'HKGroteskBold';
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+h3 {
+	font-family: 'HKGroteskBold';
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #45467B;
+	letter-spacing: 2px;
+}
+
+h4 {
+	font-family: 'HKGroteskBold';
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #45467B;
+	letter-spacing: 2px;
+}
+
+h5 {
+	font-family: 'HKGroteskBold';
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #45467B;
+	letter-spacing: 2px;
+}
+
+a {
+	text-decoration: none;
+	color: #799DFF;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'HKGroteskBold';
+}
+
+small {
+	font-size: 11px;
+	color: #B2B2C9;
+	text-transform: uppercase;
+}
+
+:global .flexRow {
+	display: flex;
+	flex-direction: row;
+}
+
+:global .bottomTick,
+:global .bottomTick > text {
+	color: #B2B2C9 !important;
+	fill: #B2B2C9 !important;
+}
+
+/* .recharts-cartesian-grid-vertical > line:first-of-type,
+.recharts-cartesian-grid-vertical > line:last-of-type {
+	display: none;
+} */

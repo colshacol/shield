@@ -1,0 +1,32 @@
+.MAHIAwareness {
+
+}
+
+.shadowLine {
+	transform: translate(2%, 8%);
+}
+
+:global .recharts-surface {
+	overflow: hidden;
+}
+
+:global .recharts-cartesian-axis-ticks > .recharts-cartesian-axis-tick > text {
+	font-size: 10px;
+	transform: translate(0, -2px);
+}
+
+:global .recharts-cartesian-axis-ticks > .recharts-cartesian-axis-tick:first-of-type > text {
+	transform: translate(-12px, -2px);
+}
+
+:global .recharts-cartesian-axis-ticks > .recharts-cartesian-axis-tick:last-of-type > text {
+	transform: translate(12px, -2px);
+}
+
+:global .recharts-cartesian-axis-ticks > .recharts-cartesian-axis-tick:first-of-type > line {
+	transform: translate(-12px, 0);
+}
+
+:global .recharts-cartesian-axis-ticks > .recharts-cartesian-axis-tick:last-of-type > line {
+	transform: translate(12px, 0);
+}

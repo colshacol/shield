@@ -1,0 +1,24 @@
+@font-face {
+	src: url("../../public/fonts/HKGrotesk-Regular.ttf");
+	font-family: 'HKGrotesk'
+}
+
+@font-face {
+	src: url("../../public/fonts/HKGrotesk-Bold.ttf");
+	font-family: 'HKGroteskBold'
+}
+
+@font-face {
+	src: url("../../public/fonts/HKGrotesk-Italic.ttf");
+	font-family: 'HKGroteskItalic'
+}
+
+@font-face {
+	src: url("../../public/fonts/HKGrotesk-Light.ttf");
+	font-family: 'HKGroteskLight'
+}
+
+@font-face {
+	src: url("../../public/fonts/HKGrotesk-LightItalic.ttf");
+	font-family: 'HKGroteskLightItalic'
+}
